@@ -13,16 +13,14 @@ const router = createBrowserRouter([
   {
     path: "/games",
     element: <GamesPage />,
-    children: [
-      {
-        path: "/games/maze",
-        element: <DefaultMazeGamePage />,
-      },
-      {
-        path: "/games/circle-maze",
-        element: <CircleMazeGamePage />,
-      },
-    ]
+  },
+  {
+    path: "/games/maze",
+    element: <DefaultMazeGamePage />,
+  },
+  {
+    path: "/games/circle-maze",
+    element: <CircleMazeGamePage />,
   },
   {
     path: "*",
