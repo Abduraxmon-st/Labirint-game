@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+/* #F6F5FF */
+
+@theme inline {
+  --color-mainBgColor: #F6F5FF;
+}
