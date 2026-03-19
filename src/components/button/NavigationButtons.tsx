@@ -1,6 +1,11 @@
-const NavigationButtons = () => {
+import type React from "react"
+import { ArrowIcon } from "../../assets/icons"
+
+const NavigationButtons = (props: React.ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
-    <div>NavigationButtons</div>
+    <button type="button" {...props}>
+      <ArrowIcon />
+    </button>
   )
 }
 
