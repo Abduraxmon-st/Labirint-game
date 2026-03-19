@@ -14,7 +14,7 @@ export const moving = [
 ]
 
 
-const mazetemplate = [
+export const mazetemplate = [
   {
     "key": 1,
     "row": 0,
